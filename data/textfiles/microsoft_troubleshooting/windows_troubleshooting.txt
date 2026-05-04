@@ -1,0 +1,173 @@
+Audio troubleshooter for Windows
+Use the audio troubleshooter if you experience issues with sound on your computer.
+Open the Get Help app.
+In the Search  bar, enter audio troubleshooter.
+If asked to consent to proceed with diagnostics, select Yes .
+Allow a few moments for the scan to complete.
+Follow prompts or steps until issues are resolved
+
+
+Background Intelligent Transfer Service (BITS) troubleshooter
+Use the Background Intelligent Transfer Service (BITS) troubleshooter to help fix issues with the BITS service
+Open the Get Help app.
+In the Search  bar, enter Background Intelligent Transfer Service​​​​​​​ troubleshooter.
+Follow the steps provided
+
+
+Bluetooth troubleshooter
+Use the Bluetooth troubleshooter if you are having problems connecting to a Bluetooth device.
+Open the Get Help app.
+In the Search  bar, enter Bluetooth troubleshooter.
+Follow the steps provided
+
+
+Camera troubleshooter
+Use the camera troubleshooter if you have issues with your device's camera.
+Open the Get Help app.
+In the Search  bar, enter camera troubleshooter.
+Follow the steps provided
+
+
+Network and internet troubleshooter
+Use the network and internet troubleshooter if you are having difficulty connecting to the internet or other network.
+Open the Get Help app.
+In the Search  bar, enter connect to network and internet.
+Select Run network diagnostics.
+Complete any troubleshooting steps provided until you can connect successfully.
+
+
+Printer troubleshooter
+Use the printer troubleshooter to resolve issue connecting to a printer or other printing issues.
+Open the Get Help app.
+In the Search  bar, enter printer troubleshooter.
+Follow the prompts to scan for printers and troubleshoot your configuration.
+
+
+Program compatibility troubleshooter
+Use the program compatibility troubleshooter if you experience program compatibility issues.
+Open the Get Help app.
+In the Search  bar, enter Run the Windows Program Compatibility troubleshooter.
+Follow the steps provided.
+
+
+Video playback troubleshooter
+Use the Video playback troubleshooter to help diagnose videos that are not playing correctly.
+Open the Get Help app.
+In the Search  bar, enter Video playback troubleshooter.
+Follow the steps provided.
+
+
+Windows Media Player troubleshooter
+Use the Windows Media Player troubleshooter for issues with Windows Media Player.
+Open the Get Help app.
+In the Search  bar, enter Windows Media Player troubleshooter.
+Follow the steps provided.
+
+
+Windows Update troubleshooter
+Use the Window Update troubleshooter if you experience issues trying to update your Windows version.
+Open the Get Help app.
+In the Search  bar, enter windows update troubleshooter.
+Follow the steps provided.
+
+
+Excel check troubleshooter
+Use the Excel check troubleshooter to resolve Excel for Windows startup, hang, or crash issues.
+Select the button below to start the Excel check troubleshooter.
+Click Open if you get a pop-up window indicating This site is trying to open Get Help.
+Follow the prompts in the Get Help window.
+
+
+Microsoft 365 uninstall troubleshooter
+Use the uninstall troubleshooter to uninstall Microsoft 365, Office 2021, Office 2019, or Office 2016 from your Windows PC.
+Select the button below to start the uninstall troubleshooter.
+Click Open if you get a pop-up window indicating This site is trying to open Get Help.
+Follow the prompts in the Get Help window. When prompted, restart your computer.
+
+
+Microsoft 365 setup troubleshooter
+Use the Microsoft 365 setup troubleshooter to install Microsoft 365, Office 2021, Office 2019, or Office 2016 on your Windows PC.
+Select the button below to start the setup troubleshooter.
+Click Open if you get a pop-up window indicating This site is trying to open Get Help.
+Follow the prompts in the Get Help window. When prompted, restart your computer.
+
+
+Microsoft 365 activation troubleshooter
+Use the Microsoft 365 activation troubleshooter to resolve Microsoft 365 subscription activation issues.
+Select the button below to start the activation troubleshooter.
+Click Open if you get a pop-up window indicating This site is trying to open Get Help.
+Follow the prompts in the Get Help window. When prompted, restart your computer.
+
+
+Microsoft 365 sign-in troubleshooter
+Use the Microsoft 365 sign-in troubleshooter to help resolve sign-in issues encountered with Microsoft 365.
+Start the Get Help app.
+In the Search  bar, enter sign in to Microsoft Office.
+Follow the steps provided.
+
+
+Microsoft 365 shared computer activation (SCA) troubleshooter
+Use the Microsoft 365 shared computer activation (SCA) troubleshooter to enable shared computer activation for Microsoft 365 applications.
+Start the Get Help app.
+In the Search  bar, enter shared computer activation.
+Follow the steps provided.
+
+
+
+Microsoft 365 inventory scan troubleshooter
+Use the MIcrosoft 365 inventory scan troubleshooter to generate either a normal or full scan report of your computer and installed Microsoft 365 applications.
+Start the Get Help app.
+In the Search  bar, enter full Microsoft Office scan.
+Follow the steps provided
+
+
+Microsoft 365 network connectivity test troubleshooter
+Use the Microsoft 365 network connectivity test to measure connectivity between your device and the internet, and from there to Microsoft’s network.
+Start the Get Help app.
+In the Search  bar, enter Microsoft 365 network connectivity test.
+Follow the steps provided.
+
+
+Classic Outlook profile setup troubleshooter
+Use the classic Outlook profile setup troubleshooter to set up Microsoft 365 email in classic Outlook.
+Start the Get Help app.
+In the Search  bar, enter Set up Microsoft 365 email in Outlook.
+Follow the steps provided.
+
+Classic Outlook startup troubleshooter
+Use the classic Outlook startup troubleshooter to resolve issues when classic Outlook for Windows is unable to start.
+Select the button below to start the troubleshooter.
+Click Open if you get a pop-up window indicating This site is trying to open Get Help.
+Follow the steps in the Get Help window.
+
+
+Classic Outlook authentication check troubleshooter
+Use the classic Outlook authentication check troubleshooter to resolve classic Outlook password authentication issues.
+Start the Get Help app.
+In the Search  bar, enter Outlook password problem.
+Follow the steps provided.
+
+
+Classic Outlook connectivity troubleshooter
+Use the classic Outlook connectivity troubleshooter to resolve intermittent connectivity issues.
+Select the button below to start the troubleshooter.
+Click Open if you get a pop-up window indicating This site is trying to open Get Help.
+Follow the steps in the Get Help window.
+
+
+Classic Outlook advanced diagnostics troubleshooter
+Use the classic Outlook advanced diagnostics troubleshooter to create a detailed configuration report.
+Select the button below to start the troubleshooter.
+Click Open if you get a pop-up window indicating This site is trying to open Get Help.
+Follow the steps in the Get Help window.
+
+
+
+Classic Outlook calendar check troubleshooter
+Use the classic Outlook calendar check troubleshooter to identify classic Outlook calendar issues.
+Start the Get Help app.
+In the Search  bar, enter Problem finding Outlook calendar.
+Follow the steps provided.
+
+
+
