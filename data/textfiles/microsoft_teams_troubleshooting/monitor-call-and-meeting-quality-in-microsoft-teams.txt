@@ -1,0 +1,270 @@
+How to read your call health stats
+==================================
+How to read your call health stats
+Network
+Metric
+Description
+Typical value
+Roundtrip time
+In group calls, it's the response time between your system and the Teams Service. In one-on-one calls, it's the response time between your system and the other participant's.
+Lower is better.
+< 200 ms
+Received packet loss
+The result of a poor network connection.
+Lower is better.
+< 2%
+Teams send limit*
+The max limit of data Teams can send based on the current network conditions and how it's used. This isn't your ISP speed limit.
+Audio: 70 kbps
+Video: 1.5 Mbps
+Teams receive limit*
+The max limit of data Teams can receive based on the current network conditions and how it's used. This isn't your ISP speed limit.
+For more information, see the admin instructions
+Bandwidth requirements
+.
+Audio: 70 kbps
+Video: 1.5 Mbps
+Audio
+Metric
+Description
+Typical value
+Sent bitrate
+The amount of audio data sent.
+High is better.
+> 24 kbps minimum; 36-128 kbps is typical
+Sent packets
+Data gets sent over the network in packets. This value is the number of data packets sent during a call.
+Informational only
+Roundtrip time
+Response time between your system and the Teams server.
+Lower is better.
+< 200 ms
+Sent codec
+The codec used for encoding audio sent by your system.
+Informational only
+Received jitter
+The distortion in audio caused by inconsistent audio packet arrival times,
+Lower is better.
+< 30 ms
+Received packets
+The number of audio data packets received
+Informational only
+Received packet loss
+The result of a poor network connection, this is the percentage of audio data packets not received by your system.
+Lower is better.
+< 2%
+Received codec
+The codec used for encoding audio data received by your system.
+Informational only
+Video
+Metric
+Description
+Typical value
+Sent frame rate
+The number of video frames sent per second.
+Higher is better
+Between 1-30 fps
+(Variable based on what content is being shared.)
+Sent width/height
+Video resolution sent.
+Higher is better.
+Between 160x90 to 1920x1080 pixels
+(Variable based on what content is being shared and your device's capabilities.)
+Sent bitrate
+The amount of data your device sends.
+The higher the number, the better the quality.
+Informational only
+Roundtrip time
+Response time between your system and Teams server.
+Lower is better
+< 200 ms
+Sent packets
+The number of packets of data sent over the network.
+Informational only
+Sent codec
+The codec used to encode your video data.
+Informational only
+Video processing
+Resource used to encode video.
+Hardware processing preferred
+Screen sharing
+Metric
+Description
+Typical value
+Sent frame rate
+The number of video frames sent per second.
+Higher is better.
+Between 1-30 fps
+(Variable based on what content is being shared.)
+Sent width/height
+Video resolution sent.
+Higher is better.
+Between 160x90 to 1920x1080 pixels
+(Variable based on what content is being shared and your device's capabilities.)
+Sent codec
+The codec used to encode screen sharing data.
+Informational only
+Screen share and processing
+Indicates whether CPU (Central Processing Unit) or GPU (Graphics Processing Unit) is used for encoding video data.
+Hardware or hardware plus software processing preferred
+Received frame rate
+The number of video frames received per second by your system.
+Higher is better.
+1-30 fps
+Received width/height
+Resolution of the video your system receives.
+Higher is better.
+Between 160x90 to 1920x1080 pixels
+(Variable based on what content is being shared and device capabilities.)
+Received codec
+The codec used for processing and encoding incoming screen sharing data.
+Informational only
+Screen share received processing
+Indicates whether CPU (Central Processing Unit) or GPU (Graphics Processing Unit) is used for encoding video data.
+Hardware processing preferred
+*Exceptionally low values in some scenarios indicate Teams is limiting its peak bandwidth usage to maintain transmission while competing with network traffic or hitting network and service issues between endpoints. In these cases where Teams restricts quality, network conditions should be evaluated to see if something can be improved.
+Teams might also limit its peak bandwidth usage if the complexity of screen sharing, video, or audio content is low or if a participant in the call or meeting chose lower-quality settings. Teams will adapt to the current use as well, not just because of network conditions.
+Note:
+Low frame rates don't necessarily imply a poor call experience. If you are experiencing poor video quality and low frame rates, it could be due to the performance of the computer system or insufficient hardware resources.
+
+
+No Title
+========
+Network
+Metric
+Description
+Typical value
+Roundtrip time
+In group calls, it's the response time between your system and the Teams Service. In one-on-one calls, it's the response time between your system and the other participant's.
+Lower is better.
+< 200 ms
+Received packet loss
+The result of a poor network connection.
+Lower is better.
+< 2%
+Teams send limit*
+The max limit of data Teams can send based on the current network conditions and how it's used. This isn't your ISP speed limit.
+Audio: 70 kbps
+Video: 1.5 Mbps
+Teams receive limit*
+The max limit of data Teams can receive based on the current network conditions and how it's used. This isn't your ISP speed limit.
+For more information, see the admin instructions
+Bandwidth requirements
+.
+Audio: 70 kbps
+Video: 1.5 Mbps
+
+
+No Title
+========
+Audio
+Metric
+Description
+Typical value
+Sent bitrate
+The amount of audio data sent.
+High is better.
+> 24 kbps minimum; 36-128 kbps is typical
+Sent packets
+Data gets sent over the network in packets. This value is the number of data packets sent during a call.
+Informational only
+Roundtrip time
+Response time between your system and the Teams server.
+Lower is better.
+< 200 ms
+Sent codec
+The codec used for encoding audio sent by your system.
+Informational only
+Received jitter
+The distortion in audio caused by inconsistent audio packet arrival times,
+Lower is better.
+< 30 ms
+Received packets
+The number of audio data packets received
+Informational only
+Received packet loss
+The result of a poor network connection, this is the percentage of audio data packets not received by your system.
+Lower is better.
+< 2%
+Received codec
+The codec used for encoding audio data received by your system.
+Informational only
+
+
+No Title
+========
+Video
+Metric
+Description
+Typical value
+Sent frame rate
+The number of video frames sent per second.
+Higher is better
+Between 1-30 fps
+(Variable based on what content is being shared.)
+Sent width/height
+Video resolution sent.
+Higher is better.
+Between 160x90 to 1920x1080 pixels
+(Variable based on what content is being shared and your device's capabilities.)
+Sent bitrate
+The amount of data your device sends.
+The higher the number, the better the quality.
+Informational only
+Roundtrip time
+Response time between your system and Teams server.
+Lower is better
+< 200 ms
+Sent packets
+The number of packets of data sent over the network.
+Informational only
+Sent codec
+The codec used to encode your video data.
+Informational only
+Video processing
+Resource used to encode video.
+Hardware processing preferred
+
+
+No Title
+========
+Screen sharing
+Metric
+Description
+Typical value
+Sent frame rate
+The number of video frames sent per second.
+Higher is better.
+Between 1-30 fps
+(Variable based on what content is being shared.)
+Sent width/height
+Video resolution sent.
+Higher is better.
+Between 160x90 to 1920x1080 pixels
+(Variable based on what content is being shared and your device's capabilities.)
+Sent codec
+The codec used to encode screen sharing data.
+Informational only
+Screen share and processing
+Indicates whether CPU (Central Processing Unit) or GPU (Graphics Processing Unit) is used for encoding video data.
+Hardware or hardware plus software processing preferred
+Received frame rate
+The number of video frames received per second by your system.
+Higher is better.
+1-30 fps
+Received width/height
+Resolution of the video your system receives.
+Higher is better.
+Between 160x90 to 1920x1080 pixels
+(Variable based on what content is being shared and device capabilities.)
+Received codec
+The codec used for processing and encoding incoming screen sharing data.
+Informational only
+Screen share received processing
+Indicates whether CPU (Central Processing Unit) or GPU (Graphics Processing Unit) is used for encoding video data.
+Hardware processing preferred
+*Exceptionally low values in some scenarios indicate Teams is limiting its peak bandwidth usage to maintain transmission while competing with network traffic or hitting network and service issues between endpoints. In these cases where Teams restricts quality, network conditions should be evaluated to see if something can be improved.
+Teams might also limit its peak bandwidth usage if the complexity of screen sharing, video, or audio content is low or if a participant in the call or meeting chose lower-quality settings. Teams will adapt to the current use as well, not just because of network conditions.
+Note:
+Low frame rates don't necessarily imply a poor call experience. If you are experiencing poor video quality and low frame rates, it could be due to the performance of the computer system or insufficient hardware resources.
+

@@ -1,0 +1,181 @@
+Check your speaker settings in Teams
+====================================
+Check your speaker settings in Teams
+Before a meeting
+If your speaker is muted before the call starts, Teams will show you the notification below. Select
+Unmute
+to hear others in your meeting.
+You can also make sure your speaker is working before your meeting or call starts by checking your device settings.
+To check your speaker device settings:
+Select
+Settings and more
+>
+Settings
+in Teams.
+Select
+Devices
+.
+In
+Audio
+>
+Audio settings
+, make sure your speaker is selected from the
+Speaker
+dropdown menu.
+Note:
+If your audio device doesn’t appear, make sure it’s charged (Bluetooth), or unplug and plug it back in (wired). Then, try reconnecting it.
+To test your audio settings, select
+Make a test call
+. Follow the instructions from
+Test Call Bot
+and record a short message. The message will play back for you. After that, you'll get a summary of the test call, and you can make changes in your device settings.
+Notes:
+The test call feature is currently available in English only. Additional languages are coming soon.
+Your test recording will be deleted immediately after the call. It won’t be retained or used by Microsoft.
+The test call feature is currently unavailable on Teams for web.
+During a meeting
+If you can't hear others during a call or meeting, check whether your speaker is muted or disconnected in your device settings.
+In your Teams meeting window, select the dropdown arrow next to
+Mic
+.
+Select
+More actions
+>
+Audio settings
+.
+Under
+Speaker
+, make sure your device is selected and unmuted
+If you don't see your device in the
+Mic
+dropdown menu, unplug and plug it back in. If you’re
+having trouble using a Bluetooth speaker
+, make sure it’s charged and not connected to another device. Then try reconnecting.
+
+
+No Title
+========
+Before a meeting
+If your speaker is muted before the call starts, Teams will show you the notification below. Select
+Unmute
+to hear others in your meeting.
+You can also make sure your speaker is working before your meeting or call starts by checking your device settings.
+To check your speaker device settings:
+Select
+Settings and more
+>
+Settings
+in Teams.
+Select
+Devices
+.
+In
+Audio
+>
+Audio settings
+, make sure your speaker is selected from the
+Speaker
+dropdown menu.
+Note:
+If your audio device doesn’t appear, make sure it’s charged (Bluetooth), or unplug and plug it back in (wired). Then, try reconnecting it.
+To test your audio settings, select
+Make a test call
+. Follow the instructions from
+Test Call Bot
+and record a short message. The message will play back for you. After that, you'll get a summary of the test call, and you can make changes in your device settings.
+Notes:
+The test call feature is currently available in English only. Additional languages are coming soon.
+Your test recording will be deleted immediately after the call. It won’t be retained or used by Microsoft.
+The test call feature is currently unavailable on Teams for web.
+
+
+No Title
+========
+During a meeting
+If you can't hear others during a call or meeting, check whether your speaker is muted or disconnected in your device settings.
+In your Teams meeting window, select the dropdown arrow next to
+Mic
+.
+Select
+More actions
+>
+Audio settings
+.
+Under
+Speaker
+, make sure your device is selected and unmuted
+If you don't see your device in the
+Mic
+dropdown menu, unplug and plug it back in. If you’re
+having trouble using a Bluetooth speaker
+, make sure it’s charged and not connected to another device. Then try reconnecting.
+
+
+Check sound settings (Windows)
+==============================
+Check sound settings (Windows)
+Go to your Windows settings to make sure your speaker is enabled and unmuted.
+From Windows Start, search and select
+Sound settings
+.
+Select
+System
+>
+Sound
+.
+In
+Choose where to play sound
+, select your speaker. If you don’t see your speaker here, select
+Add device
+to pair it.
+Next to
+Volume
+, make sure your speaker is unmuted.
+If you’re still having trouble, try re-enabling your speaker by going to
+Advanced > More sound settings
+. In the
+Recording
+tab, right-click your mic. Then select
+Enable
+.
+
+
+Check remote desktop settings (Windows)
+=======================================
+Check remote desktop settings (Windows)
+If you’re using
+Remote Desktop
+, double-check the audio settings on your local Windows device.
+From Windows Start, search and select
+Remote Desktop Connection
+.
+Open the
+Local Resources
+tab.
+Under
+Remote audio
+, select
+Settings…
+.
+Under
+Remote audio playback
+, select
+Play on this computer
+.
+Under
+Remote audio recording
+, select
+Record from this computer
+.
+Select
+OK
+to save changes.
+
+
+Related topics
+==============
+Related topics
+My microphone isn't working in Teams
+Fix sound or audio problems in Windows
+Fix Bluetooth problems in Windows
+

@@ -1,0 +1,340 @@
+Check for updates
+=================
+Check for updates
+For the best performance, make sure you have the
+latest version of Teams
+and the most recent
+Windows update
+or
+Mac OS update
+installed.
+
+
+Make sure you're not muted
+==========================
+Make sure you're not muted
+In your meeting controls, make sure
+Mic
+is in an unmuted state.
+If the mic icon has a line through it, you're currently on mute. Select
+Unmute mic
+to unmute. ​​​​​​​
+
+
+Check your physical mic
+=======================
+Check your physical mic
+Some mics have physical mute options on the devices themselves.
+Check that your headphone boom is not in the mute position (usually upright or away from your mouth), or that your external mic's physical mute button is not turned on.
+
+
+Check settings on your device or browser
+========================================
+Check settings on your device or browser
+To use your mic in Teams, you might need to change privacy settings on your device or on the web to give let Teams access to it.
+Change device settings
+If you're using the Teams desktop app, double-check your device settings to make sure Teams has access to your mic.
+Windows
+Open your device settings and select
+Privacy & security
+.
+Under
+App permissions
+, select
+Microphone
+.
+Turn on the
+Microphone access
+toggle.
+Turn on the
+Let apps access your microphone
+toggle.
+Turn on the
+Microsoft Teams (work or school)
+toggle.
+Turn on the
+Let desktop apps access your microphone
+toggle.
+Note:
+If these toggles were already turned on, try turning them off and on again to make sure the settings apply.
+Close all apps and restart your device.
+When your mic isn't working in Windows 10, it might be a problem with your drivers. Go
+here
+for step-by-step instructions to check your Windows drivers.
+macOS
+Open
+System Preferences
+on your device.
+Select
+Security & Privacy
+.
+Select
+Microphone.
+Under
+Privacy
+, make sure
+Microsoft Teams
+is selected.
+Close all apps and restart your device.
+iOS
+Open
+Settings
+.
+Tap
+Privacy
+>
+Microphone
+.
+Make sure the
+Microsoft Teams
+toggle is turned on.
+Close all apps and restart your device.
+Change browser settings
+If you're using Teams for web, make sure your default browser settings allow Teams access to use your mic.
+Note:
+Microsoft Teams on the web is currently supported in Chrome, Edge, Firefox, and Internet Explorer 11.
+Microsoft Edge
+In Edge, select
+Settings and more
+>
+Settings
+.
+Select
+Cookies and site permissions
+.
+Select
+Microphone
+.
+Turn on the
+Ask before accessing (recommended)
+toggle.
+Note:
+If this is turned off, access to your camera will be blocked on Edge.
+Google Chrome
+In Google Chrome, select
+Settings
+.
+Select
+Privacy and security
+>
+Site settings
+>
+Permissions
+.
+Select
+Microphone
+.
+At the top of this screen, make sure your correct device is selected from the dropdown menu.
+Under
+Default behavior
+, select
+Sites can ask to use your microphone
+.
+Safari
+In Safari, open
+Preferences
+.
+Select
+Websites
+.
+In
+General
+, select
+Microphone
+.
+Next to
+When visiting other websites
+: select
+Ask
+or
+Allow
+.
+Close all apps and restart your device.
+
+
+No Title
+========
+Change device settings
+If you're using the Teams desktop app, double-check your device settings to make sure Teams has access to your mic.
+
+
+No Title
+========
+Change browser settings
+If you're using Teams for web, make sure your default browser settings allow Teams access to use your mic.
+Note:
+Microsoft Teams on the web is currently supported in Chrome, Edge, Firefox, and Internet Explorer 11.
+
+
+Reconnect your mic
+==================
+Reconnect your mic
+Try reconnecting your mic through your Teams settings.
+Before a meeting
+In Teams, select
+Settings and more
+>
+Settings
+.
+Select
+Devices
+.
+Under
+Audio settings
+, make sure your mic is selected from the
+Microphone
+dropdown menu.
+Select
+Make a test call
+to test your settings. Follow the instructions from
+Test Call Bot
+and record a short message. The message will play back for you. After that, you'll get a summary of the test call, and you can make changes in your device settings.
+Notes:
+The test call feature is currently available in English only.
+Your test recording will be deleted immediately after the call. It won’t be retained or used by Microsoft.
+The test call feature is currently unavailable on Teams for web.
+During a meeting
+In your Teams meeting window, select the dropdown arrow next to
+Mic
+​​​​​​​.
+Select
+More audio settings
+.
+Make sure your correct microphone is selected
+If your mic isn’t in the
+Microphone
+dropdown menu, unplug and plug it back in. If you’re
+having trouble using a Bluetooth mic
+, make sure it’s charged and not connected to another device. Then try reconnecting.
+
+
+No Title
+========
+Before a meeting
+In Teams, select
+Settings and more
+>
+Settings
+.
+Select
+Devices
+.
+Under
+Audio settings
+, make sure your mic is selected from the
+Microphone
+dropdown menu.
+Select
+Make a test call
+to test your settings. Follow the instructions from
+Test Call Bot
+and record a short message. The message will play back for you. After that, you'll get a summary of the test call, and you can make changes in your device settings.
+Notes:
+The test call feature is currently available in English only.
+Your test recording will be deleted immediately after the call. It won’t be retained or used by Microsoft.
+The test call feature is currently unavailable on Teams for web.
+
+
+No Title
+========
+During a meeting
+In your Teams meeting window, select the dropdown arrow next to
+Mic
+​​​​​​​.
+Select
+More audio settings
+.
+Make sure your correct microphone is selected
+If your mic isn’t in the
+Microphone
+dropdown menu, unplug and plug it back in. If you’re
+having trouble using a Bluetooth mic
+, make sure it’s charged and not connected to another device. Then try reconnecting.
+
+
+Check sound settings (Windows)
+==============================
+Check sound settings (Windows)
+Go to your Windows settings to make sure your microphone is enabled and unmuted.
+From Windows
+Start
+, open your device
+Settings
+.
+Select
+System
+>
+Sound
+.
+Under
+Input
+:
+Select your mic in
+Choose a device for speaking or recording.
+If you don’t see your mic here, select
+Add device
+to pair it;
+Next to
+Volume
+, make sure your mic is unmuted.
+If you’re still having trouble, try re-enabling your speaker by going to
+Advanced > More sound settings
+. In the
+Recording
+tab, right-click your mic. Then select
+Enable
+.
+
+
+Check remote desktop settings (Windows)
+=======================================
+Check remote desktop settings (Windows)
+If you’re using
+Remote Desktop
+, double-check the audio settings on your local Windows device.
+From Windows
+Start
+, search and select
+Remote Desktop Connection
+.
+Open the
+Local Resources
+tab.
+Under
+Remote audio
+, select
+Settings…
+.
+Under
+Remote audio playback
+, select
+Play on this computer
+.
+Under
+Remote audio recording
+, select
+Record from this computer
+.
+Select
+OK
+to save changes.
+
+
+Use your phone's audio
+======================
+Use your phone's audio
+If your mic doesn’t work after trying the solutions above and you see one of the messages below, select
+Call me back
+to use your phone’s mic.
+Enter your phone number and select
+Call me
+to receive a call from Teams that will connect you to your meeting. Your audio will come from your phone, but other content sharing will still take place on your desktop.
+
+
+Related topics
+==============
+Related topics
+My speaker isn't working in Teams
+Fix sound or audio problems in Windows
+Fix Bluetooth problems in Windows
+

@@ -1,0 +1,99 @@
+Choose the right Wi-Fi bandwidth
+================================
+Choose the right Wi-Fi bandwidth
+Choose 2.4GHz or 5GHz based on your home layout. Download a Wi-Fi Analyzer app that can check for Wi-Fi dead spots, congestion caused by too many devices connected, and any interference areas.
+2.4 GHz
+Pros:
+Longer range, better at going through obstacles (for example, walls), better support (more wireless devices support 2.4 GHz compared to 5 GHz).
+Cons:
+Slower throughput, fewer channels that don’t overlap, more congested than 5 GHz networks because household devices (for example, microwaves and cordless phones) and Bluetooth devices use the 2.4 GHz network band.
+5 GHz
+Pros:
+Faster throughput, less congested channels, more channels that don't overlap.
+Cons:
+Shorter range compared to 2.4 GHz networks, doesn't go through walls and other obstacles as well as 2.4 GHz networks, not as widely used by other devices.
+
+
+No Title
+========
+2.4 GHz
+Pros:
+Longer range, better at going through obstacles (for example, walls), better support (more wireless devices support 2.4 GHz compared to 5 GHz).
+Cons:
+Slower throughput, fewer channels that don’t overlap, more congested than 5 GHz networks because household devices (for example, microwaves and cordless phones) and Bluetooth devices use the 2.4 GHz network band.
+
+
+No Title
+========
+5 GHz
+Pros:
+Faster throughput, less congested channels, more channels that don't overlap.
+Cons:
+Shorter range compared to 2.4 GHz networks, doesn't go through walls and other obstacles as well as 2.4 GHz networks, not as widely used by other devices.
+
+
+Move the router to a central location
+=====================================
+Move the router to a central location
+Minimize the number of walls and ceilings between the router and your device. Avoid being close to other electronic devices (microwaves, cordless phones, baby monitors), preferably in line of sight of your Wi-Fi devices. Get closer to the router or add a repeater to improve the signal strength. This also includes reducing potential interference from neighboring Wi-Fi signals.
+
+
+Check your speed
+================
+Check your speed
+For a high-quality video call, both you and the other participant need to have enough bandwidth. Do a speed test online (if you don't have an app, type
+speed test
+into your web browser and pick one) or ask your Internet service provider (ISP) to test your download and upload speed for you. Check the result against the speed your ISP is supposed to be providing. If you often have a slow Internet connection, ask your ISP for assistance in solving the issue.
+
+
+Update your hardware
+====================
+Update your hardware
+Regularly update the driver and firmware of your router and network adapter. Consider upgrading to a newer router and adapter with the latest Wi-Fi standards and higher gain antennas which supports heavy simultaneous usage from multiple devices better. It might be worth upgrading your hardware if all else fails.
+
+
+Check with other participants
+=============================
+Check with other participants
+Remember, even if everything’s good at your end, the other participant might have a problem with their connection.
+
+
+For network administrators
+==========================
+For network administrators
+Below are some related resources for IT admins.
+VPN
+Guidance for Microsoft 365 and Teams:
+Implementing VPN split tunneling for Office 365 - Microsoft 365 Enterprise | Microsoft Docs
+Antivirus, Firewall, and Proxies
+M365 Connectivity principles -
+Microsoft 365 network connectivity principles - Microsoft 365 Enterprise | Microsoft Docs
+Prepare Network for MS Teams -
+Prepare your organization's network for Teams - Microsoft Teams | Microsoft Docs
+QoS
+QoS Guidance -
+Implement Quality of Service in Microsoft Teams - Microsoft Teams | Microsoft Docs
+
+
+No Title
+========
+VPN
+Guidance for Microsoft 365 and Teams:
+Implementing VPN split tunneling for Office 365 - Microsoft 365 Enterprise | Microsoft Docs
+
+
+No Title
+========
+Antivirus, Firewall, and Proxies
+M365 Connectivity principles -
+Microsoft 365 network connectivity principles - Microsoft 365 Enterprise | Microsoft Docs
+Prepare Network for MS Teams -
+Prepare your organization's network for Teams - Microsoft Teams | Microsoft Docs
+
+
+No Title
+========
+QoS
+QoS Guidance -
+Implement Quality of Service in Microsoft Teams - Microsoft Teams | Microsoft Docs
+

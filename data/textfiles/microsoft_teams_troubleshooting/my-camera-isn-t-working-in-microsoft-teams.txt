@@ -1,0 +1,249 @@
+Check if your camera is in use
+==============================
+Check if your camera is in use
+To make sure you can use your camera in Teams:
+Close all other apps that might be using your camera (like Skype or FaceTime).
+If you’re using an external camera, try unplugging it and plugging it back in.
+Try restarting your device.
+Contact support from your device's manufacturer in case it's a hardware issue.
+
+
+Check for updates
+=================
+Check for updates
+Make sure you have the latest
+Windows update
+or
+Mac OS update
+and
+Teams app version
+installed.
+Check for updates in Teams
+to make sure you're running the latest version.
+Note:
+To troubleshoot Teams in Virtual Desktop Infrastructures (VDI), contact your IT admin or go
+here
+for more information.
+
+
+Make a test call
+================
+Make a test call
+To double-check whether your camera is working, make a test call in Teams.
+To make a test call:
+Select
+Settings and more
+at the top-right of Teams.
+Select
+Settings
+>
+Devices
+.
+Under
+Audio Settings
+, select
+Make a test call
+.
+In a test call, you'll see how your mic, speaker, and camera are working. Follow the instructions from
+Test Call Bot
+and record a short message. The message will play back for you. After that, you'll get a summary of the test call, and you can go to your device settings to make changes.
+Notes:
+The test call feature is only available in English for now. Additional languages coming soon.
+We'll delete your test recording immediately after the call. It won't be retained or used by Microsoft.
+The test call feature is currently unavailable for Teams on the web.
+
+
+Troubleshooting for Windows
+===========================
+Troubleshooting for Windows
+If you are still having trouble with your camera, here are some more solutions to try.
+For more help, see
+Camera doesn't work in Windows
+.
+Check your Teams mobile app permissions
+You might need to change permissions on your mobile device.
+To change permissions on your Windows device:
+Open the
+Settings
+app on your device.
+Select
+Privacy & security
+>
+Camera
+.
+Turn the
+Let apps access your camera
+toggle on.
+Under
+Let apps access your camera
+, turn the
+Microsoft Teams
+(work or school)
+toggle on
+If the toggle is already turned on, turn it off and back on again.
+Close all apps and restart your device.
+Check your drivers
+When your camera isn't working in Windows 10 (or if you're using an external webcam), it might be a problem with your drivers. Go
+here
+for step-by-step instructions for checking your Windows drivers.
+
+
+No Title
+========
+Check your Teams mobile app permissions
+You might need to change permissions on your mobile device.
+To change permissions on your Windows device:
+Open the
+Settings
+app on your device.
+Select
+Privacy & security
+>
+Camera
+.
+Turn the
+Let apps access your camera
+toggle on.
+Under
+Let apps access your camera
+, turn the
+Microsoft Teams
+(work or school)
+toggle on
+If the toggle is already turned on, turn it off and back on again.
+Close all apps and restart your device.
+
+
+No Title
+========
+Check your drivers
+When your camera isn't working in Windows 10 (or if you're using an external webcam), it might be a problem with your drivers. Go
+here
+for step-by-step instructions for checking your Windows drivers.
+
+
+Troubleshooting for Mac OS
+==========================
+Troubleshooting for Mac OS
+If you are still having trouble with your camera, here is another solution to try.
+Check your app permissions
+You might need to change your device permissions.
+To change permissions on your Mac OS device:
+Open
+System Settings
+on your device.
+Select
+Security & Privacy
+.
+Under
+Privacy
+, select
+Camera
+.
+Make sure the
+Microsoft Teams (work or school)
+is selected.
+Close all apps and restart your device.
+Note:
+These settings apply to Mac OS 10.14 and higher.
+
+
+No Title
+========
+Check your app permissions
+You might need to change your device permissions.
+To change permissions on your Mac OS device:
+Open
+System Settings
+on your device.
+Select
+Security & Privacy
+.
+Under
+Privacy
+, select
+Camera
+.
+Make sure the
+Microsoft Teams (work or school)
+is selected.
+Close all apps and restart your device.
+Note:
+These settings apply to Mac OS 10.14 and higher.
+
+
+Troubleshooting for Teams on the web
+====================================
+Troubleshooting for Teams on the web
+If you're using Teams on the web, here is something you can do to make sure your camera is set up properly.
+Check your browser settings
+: You may need to “allow” your camera and/or microphone to work in Teams.
+Contact your IT admin
+: Some settings may be managed by your IT admin; contact them for more details.
+Note:
+Microsoft Teams on the web is currently supported in Chrome, Safari, Edge, Firefox, and Internet Explorer 11.
+Microsoft Edge
+Select
+Settings and more
+>
+Settings
+.
+Select
+Cookies and site permissions
+.
+Select
+Camera
+.
+Turn on the
+Ask before accessing (recommended)
+toggle.
+Note:
+If this is turned off, access to your camera will be blocked on Edge.
+Google Chrome
+Open
+Settings
+.
+Select
+Privacy and security
+>
+Site settings
+>
+Permissions
+.
+Select
+Camera
+.
+At the top of this screen, make sure your correct device is selected from the dropdown menu.
+Under
+Default behavior
+, select
+Sites can ask to use your camera
+.
+Safari
+In Safari, open
+Preferences
+.
+Select
+Websites
+.
+In
+General
+, select
+Camera
+.
+Next to
+When visiting other websites:
+, select
+Ask
+or
+Allow
+.
+
+
+Contact Microsoft support
+=========================
+Contact Microsoft support
+Still need help?
+Contact Microsoft support
+.
+

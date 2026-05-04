@@ -1,0 +1,318 @@
+FAQ
+===
+FAQ
+Why is my meeting recording automatically if I didn’t schedule it that way?
+If you schedule a meeting or event using the town hall or webinar template, automatic recording and transcription will be on by default.
+To turn off automatic recording before the meeting or event starts, open the event details in your Teams calendar and select
+Meeting options
+>
+Recording & transcription
+. Then, turn the
+Record and transcribe automatically
+toggle off.
+To learn more, see
+Manage webinar recordings
+or
+Manage town hall recordings
+.
+If you have a compliance recording policy, recording will start automatically every time you join a meeting. This recording will be stored in your org’s storage and not your personal OneDrive or Microsoft SharePoint.
+To learn more, see
+Third-party compliance recording for Teams calls and meetings
+.
+Where are recordings and transcripts saved?
+Please see
+Recording storage
+.
+What do the recording & transcript meeting options do?
+When you organize a meeting in Teams, you can adjust recording and transcript settings and permissions in the meeting options. Learn more about recording and transcript options in the table below:
+Meeting option
+What it does
+Record and transcribe automatically
+When this option is turned on, recording and transcription will start automatically when the meeting begins.
+This option will be turned off if
+Who can record and transcribe
+is set to
+No one
+.
+Who can record and transcribe
+This option controls who can start recording or transcription during a meeting.
+If
+Organizers and co-organizers
+is selected, participants won’t be able to start the recording or transcription.
+If
+No one
+is selected, nobody in the meeting can start the recording or transcription.
+Limitations:
+This option can’t be set to
+No one
+if
+Allow Copilot
+is set to
+During and after the meeting
+.
+This option can only be set to
+No one
+if
+Allow Copilot
+is turned off.
+This option isn’t available if
+Record and transcribe automatically
+is turned on.
+Enable multilingual speech recognition
+*Teams Premium
+This allows everyone to be understood in the spoken language they set at the beginning of the meeting. This will be turned on automatically if Interpreter is on. To learn more, see
+Interpreter in Microsoft Teams meetings
+.
+To learn more, see
+Customize access to meeting recordings or transcripts in Microsoft Teams
+.
+How do I share a recording or transcript with others in Stream?
+To share a recording or transcript:
+Double-click the past meeting in your Teams calendar.
+Select
+Recap
+.
+Choose the recording or transcript you want to share.
+Select
+Open in Stream
+in the upper-right corner.
+In Stream, select
+Share
+>
+Share
+.
+Select
+Link settings
+to manage recording permissions:
+Under
+The link works for
+, select who you want to give access to.
+Under
+More settings
+:
+Select
+Can’t download
+to prevent people you share the recording with from downloading it.
+Select
+Can view
+to allow people you share with to view and download the recording.
+Select
+Can edit
+to allow people you share with to modify, delete, or move the recording.
+Set a recording expiration date.
+Set a password to the recording.
+Select
+Apply
+to apply the recording permissions.
+Enter the name, group, or email you want to share with.
+Select
+Copy link
+to copy a direct link to the recording and share it with others.
+To learn more, see
+Play, share, and download a meeting recording in Microsoft Teams
+.
+Can I request access to a recording or transcript?
+When you open a recording or transcript that you don’t have access to, you can ask the owner to share it with you directly or request access directly from that page. If you request access, reach out to the recording or transcript owner to let them know your request is waiting. They can approve the request through their email.
+How do I manage a recording or transcript’s expiration date in Stream?
+To manage a recording or transcript’s expiration date in Stream:
+Open the recording or transcript in Stream.
+Make sure you’re in
+Editing
+mode. If you’re in
+Viewing
+mode, select
+Viewing
+>
+Editing
+.
+Under the meeting recording, select the current expiration countdown.
+​​​​​​​
+Select an option to extend the recording, choose a new expiration date, or remove expiration from the recording entirely.
+What happens if the meeting organizer is a shared mailbox?
+If you’re scheduling meetings on behalf of a shared mailbox, the shared mailbox will be the meeting organizer. To learn more, see
+Shared mailbox scheduled meetings
+.
+Where is my recording?
+If you can’t find a recording:
+Check if there is a message indicating that your recording started. If you don’t see this message, the recording most likely didn’t start and can’t be recovered.
+If you know the recording was started but can’t find it in OneDrive, check if it was deleted, moved to a different location, or expired. Look in your recycle bin and second stage recycle bin.
+If you can’t find your recording in OneDrive but see this recording chiclet in your chat history, your recording failed to upload to OneDrive and will be stored in a temporary storage for 21 days. You can retry uploading it to OneDrive or download it to your local device.
+If you see this chiclet in your chat history, the recording was permanently deleted from the temporary storage and can’t be recovered.
+​​​​​​​
+
+
+No Title
+========
+Why is my meeting recording automatically if I didn’t schedule it that way?
+If you schedule a meeting or event using the town hall or webinar template, automatic recording and transcription will be on by default.
+To turn off automatic recording before the meeting or event starts, open the event details in your Teams calendar and select
+Meeting options
+>
+Recording & transcription
+. Then, turn the
+Record and transcribe automatically
+toggle off.
+To learn more, see
+Manage webinar recordings
+or
+Manage town hall recordings
+.
+If you have a compliance recording policy, recording will start automatically every time you join a meeting. This recording will be stored in your org’s storage and not your personal OneDrive or Microsoft SharePoint.
+To learn more, see
+Third-party compliance recording for Teams calls and meetings
+.
+
+
+No Title
+========
+Where are recordings and transcripts saved?
+Please see
+Recording storage
+.
+
+
+No Title
+========
+What do the recording & transcript meeting options do?
+When you organize a meeting in Teams, you can adjust recording and transcript settings and permissions in the meeting options. Learn more about recording and transcript options in the table below:
+Meeting option
+What it does
+Record and transcribe automatically
+When this option is turned on, recording and transcription will start automatically when the meeting begins.
+This option will be turned off if
+Who can record and transcribe
+is set to
+No one
+.
+Who can record and transcribe
+This option controls who can start recording or transcription during a meeting.
+If
+Organizers and co-organizers
+is selected, participants won’t be able to start the recording or transcription.
+If
+No one
+is selected, nobody in the meeting can start the recording or transcription.
+Limitations:
+This option can’t be set to
+No one
+if
+Allow Copilot
+is set to
+During and after the meeting
+.
+This option can only be set to
+No one
+if
+Allow Copilot
+is turned off.
+This option isn’t available if
+Record and transcribe automatically
+is turned on.
+Enable multilingual speech recognition
+*Teams Premium
+This allows everyone to be understood in the spoken language they set at the beginning of the meeting. This will be turned on automatically if Interpreter is on. To learn more, see
+Interpreter in Microsoft Teams meetings
+.
+To learn more, see
+Customize access to meeting recordings or transcripts in Microsoft Teams
+.
+
+
+No Title
+========
+How do I share a recording or transcript with others in Stream?
+To share a recording or transcript:
+Double-click the past meeting in your Teams calendar.
+Select
+Recap
+.
+Choose the recording or transcript you want to share.
+Select
+Open in Stream
+in the upper-right corner.
+In Stream, select
+Share
+>
+Share
+.
+Select
+Link settings
+to manage recording permissions:
+Under
+The link works for
+, select who you want to give access to.
+Under
+More settings
+:
+Select
+Can’t download
+to prevent people you share the recording with from downloading it.
+Select
+Can view
+to allow people you share with to view and download the recording.
+Select
+Can edit
+to allow people you share with to modify, delete, or move the recording.
+Set a recording expiration date.
+Set a password to the recording.
+Select
+Apply
+to apply the recording permissions.
+Enter the name, group, or email you want to share with.
+Select
+Copy link
+to copy a direct link to the recording and share it with others.
+To learn more, see
+Play, share, and download a meeting recording in Microsoft Teams
+.
+
+
+No Title
+========
+Can I request access to a recording or transcript?
+When you open a recording or transcript that you don’t have access to, you can ask the owner to share it with you directly or request access directly from that page. If you request access, reach out to the recording or transcript owner to let them know your request is waiting. They can approve the request through their email.
+
+
+No Title
+========
+How do I manage a recording or transcript’s expiration date in Stream?
+To manage a recording or transcript’s expiration date in Stream:
+Open the recording or transcript in Stream.
+Make sure you’re in
+Editing
+mode. If you’re in
+Viewing
+mode, select
+Viewing
+>
+Editing
+.
+Under the meeting recording, select the current expiration countdown.
+​​​​​​​
+Select an option to extend the recording, choose a new expiration date, or remove expiration from the recording entirely.
+
+
+No Title
+========
+What happens if the meeting organizer is a shared mailbox?
+If you’re scheduling meetings on behalf of a shared mailbox, the shared mailbox will be the meeting organizer. To learn more, see
+Shared mailbox scheduled meetings
+.
+
+
+No Title
+========
+Where is my recording?
+If you can’t find a recording:
+Check if there is a message indicating that your recording started. If you don’t see this message, the recording most likely didn’t start and can’t be recovered.
+If you know the recording was started but can’t find it in OneDrive, check if it was deleted, moved to a different location, or expired. Look in your recycle bin and second stage recycle bin.
+If you can’t find your recording in OneDrive but see this recording chiclet in your chat history, your recording failed to upload to OneDrive and will be stored in a temporary storage for 21 days. You can retry uploading it to OneDrive or download it to your local device.
+If you see this chiclet in your chat history, the recording was permanently deleted from the temporary storage and can’t be recovered.
+​​​​​​​
+
+
+Related topics
+==============
+Related topics
+I can't record a meeting
+

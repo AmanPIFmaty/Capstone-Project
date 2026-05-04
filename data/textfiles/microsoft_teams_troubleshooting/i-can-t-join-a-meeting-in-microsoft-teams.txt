@@ -1,0 +1,85 @@
+Meeting join messages
+=====================
+Meeting join messages
+In Teams, you might receive a message about why you're unable to enter a meeting. Here are the different messages you might encounter and how to resolve them.
+"Sign in to join this meeting"
+If you see this message, the meeting doesn't allow people to join unless they're signed in with a Teams work or school account. You might need to take extra steps to join:
+If you're joining from a meeting link or as an anonymous user, make sure you're signed into your Teams work or school account.
+If you're the meeting organizer and want people to be able to join your meeting without signing in, contact your IT admin (
+learn more here)
+. Changes from your IT admin may take up to 24 hours to take effect.
+"Sign in with a different account to join this meeting"
+If you see this message, the policies set by your or the meeting organizer's org prevent you from accessing the meeting. You might need to take extra steps to join:
+Make sure you're signed into the account the invite was originally sent to.
+If you're the meeting organizer and you want to allow people from other orgs to join your meeting, contact your IT admin (
+learn more here
+). Changes from your IT admin may take up to 24 hours to take effect.
+"This meeting is locked."
+After a meeting starts, organizers can lock the meeting to prevent new participants from entering.
+Reach out to the meeting organizer to let them know you're having trouble joining. If they unlock it, you can try joining again.
+"Your organizational policy does not allow you to join this meeting"
+You can't join because the organizer has enabled end-to-end encryption for their meeting. Contact the organizer to let them know you're having trouble joining.
+"The meeting lobby is full right now."
+If the lobby is full, wait a few minutes before trying to join again. You may be able to enter if other attendees join the meeting or leave the lobby. For more on lobby settings, see
+Using the lobby in Teams meetings
+.
+"Sorry, no one has responded to your request to join."
+If you get this message after 30 minutes of waiting, your request has timed out.
+Check to make sure you're joining from the correct meeting link and try again.
+Reach out to the meeting organizer to make sure your request is seen.
+
+
+No Title
+========
+"Sign in to join this meeting"
+If you see this message, the meeting doesn't allow people to join unless they're signed in with a Teams work or school account. You might need to take extra steps to join:
+If you're joining from a meeting link or as an anonymous user, make sure you're signed into your Teams work or school account.
+If you're the meeting organizer and want people to be able to join your meeting without signing in, contact your IT admin (
+learn more here)
+. Changes from your IT admin may take up to 24 hours to take effect.
+
+
+No Title
+========
+"Sign in with a different account to join this meeting"
+If you see this message, the policies set by your or the meeting organizer's org prevent you from accessing the meeting. You might need to take extra steps to join:
+Make sure you're signed into the account the invite was originally sent to.
+If you're the meeting organizer and you want to allow people from other orgs to join your meeting, contact your IT admin (
+learn more here
+). Changes from your IT admin may take up to 24 hours to take effect.
+
+
+No Title
+========
+"This meeting is locked."
+After a meeting starts, organizers can lock the meeting to prevent new participants from entering.
+Reach out to the meeting organizer to let them know you're having trouble joining. If they unlock it, you can try joining again.
+
+
+No Title
+========
+"Your organizational policy does not allow you to join this meeting"
+You can't join because the organizer has enabled end-to-end encryption for their meeting. Contact the organizer to let them know you're having trouble joining.
+
+
+No Title
+========
+"The meeting lobby is full right now."
+If the lobby is full, wait a few minutes before trying to join again. You may be able to enter if other attendees join the meeting or leave the lobby. For more on lobby settings, see
+Using the lobby in Teams meetings
+.
+
+
+No Title
+========
+"Sorry, no one has responded to your request to join."
+If you get this message after 30 minutes of waiting, your request has timed out.
+Check to make sure you're joining from the correct meeting link and try again.
+Reach out to the meeting organizer to make sure your request is seen.
+
+
+Related topics
+==============
+Related topics
+Why am I having trouble signing in to Microsoft Teams?
+

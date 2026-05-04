@@ -1,0 +1,99 @@
+Allow the app to access your device features
+============================================
+Allow the app to access your device features
+Do one of the following depending on where in Teams you’re using the app:
+When you're using the app in Teams: Select
+More options
+and choose
+App permissions
+.
+Use the toggle(s) to turn on device access.
+If Teams asks for access to a device, select
+App permissions
+. In the dialog, toggle the relevant device feature settings on.
+Close the dialog and refresh the app to apply the changes.
+
+
+Allow the browser to access your device features
+================================================
+Allow the browser to access your device features
+Give your browser permission to access your camera or other relevant device features the app wants to use.
+Check your browser settings:
+You may need to “allow” your camera and/or microphone to work in Teams.
+Contact your IT admin:
+Some settings may be managed by your IT admin. Contact them for more details.
+Note:
+Microsoft Teams on the web is currently supported in Chrome, Safari, Edge, and Firefox.
+Google Chrome
+Open
+Settings
+.
+Select
+Privacy and security
+>
+Site settings
+>
+Permissions
+.
+Select
+Camera
+.
+At the top of this screen, make sure your correct device is selected from the dropdown menu.
+Under
+Default behavior
+, select
+Sites can ask to use your camera
+.
+Safari
+In Safari, open
+Preferences
+.
+Select
+Websites
+.
+In
+General
+, select
+Camera
+.
+Next to
+When visiting other websites
+, select
+Ask
+or
+Allow
+.
+Microsoft Edge
+Select
+Settings and more
+>
+Settings
+.
+Select
+Cookies and site permissions
+.
+Select Camera.
+Turn on the
+Ask before accessing (recommended)
+toggle.
+Note:
+If this is turned off, access to your camera will be blocked on Edge.
+​​​​​​​Mozilla Firefox
+In Firefox, open
+Settings
+.
+Select
+Privacy & Security
+.
+Under
+Permissions
+, find
+Camera
+or
+Microphone
+, then select
+Settings
+.
+Make sure access is allowed for the Teams site.
+Close Settings, then refresh the Teams app in your browser.
+
