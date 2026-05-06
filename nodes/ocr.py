@@ -8,7 +8,8 @@ def ocr_node(state):
     text = extract_text_from_bytes(image_bytes)
 
     return {
-        "messages": [HumanMessage(content=text)], 
-        "query": text,
+        #"messages": [HumanMessage(content=text)], 
+        "ocr_text": text,
         "image_bytes": None
     }
+
