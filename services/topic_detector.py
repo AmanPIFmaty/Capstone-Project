@@ -1,6 +1,6 @@
 import json
-from services.vectorstore import all_chunks
-
+from services.vectorstore import get_all_chunks
+all_chunks=get_all_chunks()
 topic_list = []
 for chunk in all_chunks:
     topic = chunk.metadata.get("topic") or chunk.metadata.get("metadata_topic")
@@ -22,7 +22,7 @@ User Query: {query}
 
 Response (JSON array only):
 """
-    response = llm.invoke(prompt).strip()
+    response = llm.invoke(prompt).content.strip()
 
     try:
         topics = json.loads(response)
