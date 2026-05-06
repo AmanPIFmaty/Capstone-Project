@@ -1,8 +1,16 @@
-from langchain_community.llms import Ollama
-from langchain_community.embeddings import HuggingFaceEmbeddings
-
-llm = Ollama(model="llama3.1")
-
-embedding_model = HuggingFaceEmbeddings(
-    model_name="sentence-transformers/all-MiniLM-L6-v2"
+from langchain_community.chat_models import ChatOllama
+ 
+llm = ChatOllama(
+    model="llama3.1" 
 )
+
+_embedding_model = None
+
+def get_embedding_model():
+    global _embedding_model
+    if _embedding_model is None:
+        from langchain_community.embeddings import HuggingFaceEmbeddings
+        _embedding_model = HuggingFaceEmbeddings(
+            model_name="sentence-transformers/all-MiniLM-L6-v2"
+        )
+    return _embedding_model
