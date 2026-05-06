@@ -24,7 +24,7 @@ def rerank_documents(query, docs, top_k=3):
 
 @observe()
 def reranker_node(state):
-    query = state["query"]
+    query = state.get("final_query")
     docs = state["docs"]
 
     reranked_docs = rerank_documents(query, docs, top_k=3)
