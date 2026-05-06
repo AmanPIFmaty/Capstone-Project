@@ -6,7 +6,7 @@ import pickle
 
 # Load vectorstore
 vectorstore = Chroma(
-    persist_directory="data/chroma_db",
+    persist_directory="chroma_db",
     embedding_function=embedding_model
 )
 
