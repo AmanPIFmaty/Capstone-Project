@@ -8,7 +8,7 @@ from services.vectorstore import (
 
 @observe()
 def retriever_node(state: ChatState):
-    query = state["query"]
+    query = state.get("final_query")
     topics = state.get("topics", [])
     if topics:
         docs = get_hybrid_retriever(topic=topics[0], k=5).invoke(query)
@@ -19,6 +19,8 @@ def retriever_node(state: ChatState):
     return {
         "docs": docs
     }
+
+
 
 
 
