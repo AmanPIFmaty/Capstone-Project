@@ -3,7 +3,7 @@ from langfuse import observe
 
 ABUSIVE_WORDS = [
     "fuck", "shit", "bitch", "idiot", "stupid", "asshole",
-    "bastard", "moron", "dumb", "loser"
+    "bastard", "moron", "dumb", "loser","porn","nudes"
 ]
 
 def is_abusive(text: str) -> bool:
@@ -19,7 +19,7 @@ def input_guard_node(state):
     query = state.get("query", "")
     if is_abusive(query):
         return {
-            "messages": [AIMessage(content="Please use respectful language. I'm here to help.")],
+            "messages": [AIMessage(content="⚠️ Please use respectful language. I'm here to help.")],
             "query_type": "block",
             "query": "",
             "image_bytes": None
