@@ -4,6 +4,7 @@ from services.llm import llm
 from services.formatting import format_docs
 from langchain_core.messages import AIMessage
 from langchain_core.prompts import ChatPromptTemplate
+from langfuse import observe
 
 prompt = ChatPromptTemplate.from_template("""
 You are a helpful IT support assistant made for troubleshooting and SOPs providing. 
@@ -20,12 +21,13 @@ Question:
 Answer:
 """)
 
-
+@observe()
 def generator_node(state: ChatState):
     query = state["query"]
     docs = state.get("docs", [])
 
     context = format_docs(docs)
+
 
     final_prompt = prompt.invoke({
         "context": context,
@@ -33,6 +35,7 @@ def generator_node(state: ChatState):
     })
 
     response = llm.invoke(final_prompt)
+        
 
     return {
         "context": context,
