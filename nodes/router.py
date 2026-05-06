@@ -9,7 +9,7 @@ def route_input(state):
     if state.get("query_type") == "block":
         return "block"                      
 
-    if state.get("image_bytes") and not state.get("query"):
+    if state.get("image_bytes"):
         return "image"
 
     return "text"
