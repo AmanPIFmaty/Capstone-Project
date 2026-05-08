@@ -89,7 +89,11 @@ pip install -r requirements.txt
 * Running on CPU → expected
 * Use smaller models for faster responses
 
+# 9. Running Frontend
 
+```
+Streamlit run frontend.py
+```
 
 ---
 
