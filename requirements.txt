@@ -25,4 +25,4 @@ torch
 transformers
 typing
 uuid
-
+streamlit
