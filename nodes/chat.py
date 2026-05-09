@@ -1,6 +1,6 @@
 import langgraph
 from services.state import ChatState
-from services.llm import llm
+from services.llm import llm,qwenn_llm
 from langchain_core.messages import AIMessage
 from langchain_core.prompts import ChatPromptTemplate,MessagesPlaceholder
 
@@ -19,7 +19,7 @@ def chat_node(state: ChatState):
         "query":query
     })
 
-    response = llm.invoke(final_prompt)
+    response = qwenn_llm.invoke(final_prompt)
     return {
         "response": response
     }
