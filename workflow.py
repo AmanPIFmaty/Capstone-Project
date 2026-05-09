@@ -5,6 +5,8 @@ from langgraph.graph import StateGraph,START,END
 from langchain_core.documents import Document
 import sqlite3
 from langgraph.checkpoint.sqlite import SqliteSaver
+from dotenv import load_dotenv
+load_dotenv()
 
 class ChatState(TypedDict, total=False):
     messages: Annotated[list[BaseMessage], add_messages]
@@ -90,11 +92,6 @@ def build_graph(checkpointer):
 
 from langfuse import get_client
 from langfuse.langchain import CallbackHandler
-
-import os
-os.environ["LANGFUSE_SECRET_KEY"] = "sk-lf-9d2fef24-0400-497a-bbf8-01755b26690f"
-os.environ["LANGFUSE_PUBLIC_KEY"] = "pk-lf-d138e1ac-5a4d-4317-bb4d-6536c8f1017d"
-os.environ["LANGFUSE_BASE_URL"] = "https://us.cloud.langfuse.com"
 # Initialize Langfuse client
 langfuse = get_client()
 
