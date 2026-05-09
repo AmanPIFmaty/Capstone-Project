@@ -42,12 +42,13 @@ Install Ollama for your OS.
 
 ---
 
-# 📥 6. Pull LLaMA 3.1 Model
+# 📥 6. Pull LLaMA 3.1 Model and Qwen2.5 
 
 After installing Ollama, run:
 
 ```bash
 ollama pull llama3.1
+ollama pull qwen2.5:3b    #Codes above defines both LLMs and can be used depending upon priority between latency and accuracy
 ```
 
 👉 This downloads the model locally.
@@ -60,6 +61,7 @@ Start Ollama:
 
 ```bash
 ollama run llama3.1
+ollama run qwen2.5:3b
 ```
 
 OR simply ensure Ollama is running in the background.
