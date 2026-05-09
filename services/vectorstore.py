@@ -3,18 +3,9 @@ from langchain_community.retrievers import BM25Retriever
 from langchain_classic.retrievers.ensemble import EnsembleRetriever
 import pickle
 
-_vectorstore = None
-_all_chunks = None
+from functools import lru_cache
 
-def get_vectorstore():
-    global _vectorstore
-    if _vectorstore is None:
-        from services.lazy_llm import get_embedding_model
-        _vectorstore = Chroma(
-            persist_directory="chroma_db",
-            embedding_function=get_embedding_model()
-        )
-    return _vectorstore
+_topic_list = None
 
 def get_all_chunks():
     global _all_chunks
@@ -23,29 +14,47 @@ def get_all_chunks():
             _all_chunks = pickle.load(f)
     return _all_chunks
 
-def get_doc_topic(doc):
-    meta = doc.metadata
-    return (
-        meta.get("topic", "") or
-        meta.get("metadata_topic", "")
-    ).strip().lower()
+def get_topic_list():
+    global _topic_list
+    if _topic_list is None:
+        all_chunks = get_all_chunks()
+        seen = set()
+        _topic_list = []
+        for chunk in all_chunks:
+            topic = chunk.metadata.get("topic") or chunk.metadata.get("metadata_topic")
+            if topic and topic not in seen:
+                seen.add(topic)
+                _topic_list.append(topic)
+    return _topic_list
+
+# Cache BM25 index per topic — built once, reused forever
+_bm25_cache: dict = {}
 
 def get_hybrid_retriever(topic=None, k=5):
-    bm25_docs = get_all_chunks()  # only loads when called
-
-    if topic:
-        topic_lower = topic.strip().lower()
-        bm25_docs = [
-            doc for doc in bm25_docs
-            if get_doc_topic(doc) == topic_lower
-        ]
-
-    bm25_retriever = BM25Retriever.from_documents(bm25_docs)
-    bm25_retriever.k = k
+    cache_key = topic.strip().lower() if topic else "__all__"
+    
+    if cache_key not in _bm25_cache:
+        all_docs = get_all_chunks()
+        if topic:
+            topic_lower = topic.strip().lower()
+            filtered = [d for d in all_docs if get_doc_topic(d) == topic_lower]
+        else:
+            filtered = all_docs
+        
+        # Build BM25 index once and cache it
+        bm25_retriever = BM25Retriever.from_documents(filtered)
+        bm25_retriever.k = k
+        _bm25_cache[cache_key] = bm25_retriever
+    
+    bm25_retriever = _bm25_cache[cache_key]
 
     semantic_retriever = get_vectorstore().as_retriever(
         search_type="mmr",
-        search_kwargs={"k": k}
+        search_kwargs={
+            "k": k,
+            # Add topic filter to semantic search too
+            **({"filter": {"topic": topic}} if topic else {})
+        }
     )
 
     return EnsembleRetriever(
