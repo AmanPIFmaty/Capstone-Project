@@ -1,5 +1,5 @@
-from langchain_community.chat_models import ChatOllama
- 
+from langchain_ollama import ChatOllama
+
 llm = ChatOllama(
     model="llama3.1" 
 )
@@ -14,3 +14,9 @@ def get_embedding_model():
             model_name="sentence-transformers/all-MiniLM-L6-v2"
         )
     return _embedding_model
+
+
+
+qwenn_llm = ChatOllama(
+    model="qwen2.5:3b"     
+)
