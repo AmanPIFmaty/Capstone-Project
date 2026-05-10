@@ -25,3 +25,6 @@ transformers
 streamlit
 langchain-groq
 langgraph-checkpoint-sqlite
+presidio-analyzer
+presidio-anonymizer
+spacy
