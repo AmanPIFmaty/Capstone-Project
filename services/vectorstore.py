@@ -31,10 +31,20 @@ def get_topic_list():
 _bm25_cache: dict = {}
 
 
-mmr_retriever = vectorstore.as_retriever(
-    search_type="mmr",
-    search_kwargs={"k": 5}
-)
+def get_vectorstore():
+    global _vectorstore
+    if _vectorstore is None:
+        _vectorstore = Chroma(
+            persist_directory="chroma_db",
+            embedding_function=get_embedding_model()
+        )
+    return _vectorstore
+
+def get_mmr_retriever():
+    return get_vectorstore().as_retriever(
+        search_type="mmr",
+        search_kwargs={"k": 5}
+    )
 
 def get_hybrid_retriever(topic=None, k=5):
     cache_key = topic.strip().lower() if topic else "__all__"
