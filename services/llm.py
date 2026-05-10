@@ -1,11 +1,7 @@
-from langchain_groq import ChatGroq
-from dotenv import load_dotenv
-import os
-load_dotenv()
+from langchain_ollama import ChatOllama
 
-llm = ChatGroq(
-    model="llama-3.1-8b-instant",
-    api_key=os.getenv("GROQ_API_KEY")
+llm = ChatOllama(
+    model="llama3.1" 
 )
 
 _embedding_model = None
@@ -19,7 +15,8 @@ def get_embedding_model():
         )
     return _embedding_model
 
-qwenn_llm = ChatGroq(
-    model="qwen-qwq-32b",
-    api_key=os.getenv("GROQ_API_KEY")
+
+
+qwenn_llm = ChatOllama(
+    model="qwen2.5:3b"     
 )
