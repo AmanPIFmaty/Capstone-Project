@@ -370,7 +370,7 @@ def load_backend():
     try:
         import sqlite3 as _sqlite3
         from langgraph.checkpoint.sqlite import SqliteSaver
-        from workflow import build_graph          # your graph module
+        from workflow import build_graph
         from langchain_core.messages import HumanMessage as HM
 
         conn = _sqlite3.connect("chatbot.db", check_same_thread=False)
@@ -378,6 +378,7 @@ def load_backend():
         chatbot = build_graph(checkpointer=checkpointer)
         return chatbot, checkpointer, HM
     except Exception as e:
+        st.error(f"❌ Backend failed to load: {e}")
         return None, None, None
 
 
