@@ -24,3 +24,4 @@ torch
 transformers
 streamlit
 langchain-groq
+langgraph-checkpoint-sqlite
