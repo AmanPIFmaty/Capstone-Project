@@ -1,8 +1,9 @@
 import langgraph
 from langfuse import observe
 from services.state import ChatState
+
 from services.vectorstore import (
-    mmr_retriever,
+    get_mmr_retriever,
     get_hybrid_retriever
 )
 
@@ -13,7 +14,7 @@ def retriever_node(state: ChatState):
     if topics:
         docs = get_hybrid_retriever(topic=topics[0], k=5).invoke(query)
     else:
-        docs = mmr_retriever.invoke(query)
+        docs = get_mmr_retriever().invoke(query)
         
 
     return {
