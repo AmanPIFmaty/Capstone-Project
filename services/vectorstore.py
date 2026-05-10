@@ -30,6 +30,12 @@ def get_topic_list():
 # Cache BM25 index per topic — built once, reused forever
 _bm25_cache: dict = {}
 
+
+mmr_retriever = vectorstore.as_retriever(
+    search_type="mmr",
+    search_kwargs={"k": 5}
+)
+
 def get_hybrid_retriever(topic=None, k=5):
     cache_key = topic.strip().lower() if topic else "__all__"
     
