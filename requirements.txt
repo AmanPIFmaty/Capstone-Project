@@ -1,11 +1,10 @@
 chromadb
-opencv-python
-dotenv
+opencv-python-headless
+python-dotenv
 easyocr
 huggingface-hub
 ipykernel
 joblib
-json
 langchain
 langchain-classic
 langchain-community
@@ -17,12 +16,10 @@ langsmith
 matplotlib
 numpy
 ollama
-PIL
+pillow
 pydantic
 regex
 sqlalchemy
 torch
 transformers
-typing
-uuid
 streamlit
