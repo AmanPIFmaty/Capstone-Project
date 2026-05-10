@@ -1,5 +1,5 @@
 chromadb
-cv2
+opencv-python
 dotenv
 easyocr
 huggingface-hub
