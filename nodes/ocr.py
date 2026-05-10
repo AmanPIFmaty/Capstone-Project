@@ -5,8 +5,8 @@ from services.ocr import extract_text_from_bytes
 @observe()
 def ocr_node(state):
     image_bytes = state["image_bytes"]
-    text = extract_text_from_bytes(image_bytes)
-
+    #text = extract_text_from_bytes(image_bytes)
+    text="testing"
     return {
         #"messages": [HumanMessage(content=text)], 
         "ocr_text": text,
